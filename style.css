@@ -111,32 +111,40 @@ h1 {
 }
 
 #livre1 {
-    background-color: rgb(10, 29, 128);
-    width: 800px;
-    height: 80px;
-    margin: auto;
+    
+    width: 900px;
+    height: 100px;
+    /* margin: auto;
     justify-content: center;
     text-align: center;
     padding: auto;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 100px;  */
 
 }
 
 #livre2 {
-    background-color: rgb(242, 4, 92);
-    width: 800px;
-    height: 80px;
-    margin: auto;
+    width: 900px;
+    height: 100px;
+    /* margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
     margin-bottom: 20px;
+    margin-top: 100px;  */
+
+    
 }
 
 #livre3 {
-    background-color: rgb(221, 143, 26);
-    width: 800px;
-    height: 80px;
-    margin: auto;
-    margin-bottom: 200px;
+    width: 900px;
+    height: 100px;
+    /* margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;  */
 }
 div{
     top: auto;
