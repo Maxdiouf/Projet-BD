@@ -1,25 +1,30 @@
-//Fonction animation onomatopé
-console.log('go')
-function clignotement(){ 
-    if (document.getElementById("onoo2").style.display=="block"){
-        document.getElementById("onoo2").style.display="none";
-    } else {
-        document.getElementById("onoo2").style.display="block"; } 
+const slideGallery = document.querySelector('.slides');
+const slides = slideGallery.querySelectorAll('div');
+const scrollbarThumb = document.querySelector('.thumb');
+const slideCount = slides.length;
+const slideHeight = 720;
+const marginTop = 16;
 
-     
-}
-// mise en place de l appel régulier de la fonction toutes les 1.2 secondes 
-setInterval("clignotement()", 1000);
-//dans la balise body on appelle le fichier script1.js pour lui assigner : <onload="script1.js">car ma page javascript est nommé test
+const scrollThumb = () => {
+  const index = Math.floor(slideGallery.scrollTop / slideHeight);
+  scrollbarThumb.style.height = `${((index + 1) / slideCount) * slideHeight}px`;
+};
 
- function changementImage(sourceImage) {
-    document.getElementById('livre1').src = sourceImage
-    //document.getElementByid('livre1').style.height= 300 +"px";
+const scrollToElement = el => {
+  const index = parseInt(el.dataset.id, 10);
+  slideGallery.scrollTo(0, index * slideHeight + marginTop);
+};
 
-}
-function changementImagesss(sourceImage) {
-    document.getElementById('livre1').src = sourceImage
-    //document.getElementByid('livre1').style.height= 100 +"px";
-    console.log('test')
-    
-} 
+document.querySelector('.thumbnails').innerHTML += [...slides]
+  .map(
+    (slide, i) => `<img src="${slide.querySelector('img').src}" data-id="${i}">`
+  )
+  .join('');
+
+document.querySelectorAll('.thumbnails img').forEach(el => {
+  el.addEventListener('click', () => scrollToElement(el));
+});
+
+slideGallery.addEventListener('scroll', e => scrollThumb());
+
+scrollThumb();

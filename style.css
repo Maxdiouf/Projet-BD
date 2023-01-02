@@ -5,9 +5,25 @@
 
 body{
     background-image: url(/Ressources/img/fonds/accueil.png);
-    background-size: 1500px 2048px;
+    background-size: cover; 
+    
 }
 
+body#europePage {
+    background-image: url(/Ressources/img/fonds/fondFrancoBelge.png);
+    background-size: cover; 
+    overflow-y: hidden;
+}
+body#comicsPage {
+    background-image: url(/Ressources/img/fonds/fondComics.png);
+    background-size: cover; 
+    overflow-y: hidden;
+}
+body#mangaPage {
+    background-image: url(/Ressources/img/fonds/fondManga.png);
+    background-size: cover;     
+    overflow-y: hidden;
+}
 h1 {
     font-family: "Bangers", serif;
     color: white;
@@ -17,137 +33,308 @@ h1 {
     font-family: "Bangers", serif;
     border: 2px solid white;
     color: white;
-    font-size: 50px;
-    padding: 2px;
+    font-size: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 2px;
 }
 .square2 {
     font-family: "Bangers", serif;
     border: 2px solid white;
     color: white;
-    font-size: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 2px;
 }
 
 .contenu{
     display: flex;
     flex-wrap: wrap;
-    width: 210px;
+    width: 230px;
     margin: auto;
 }
 
 #video {
-    width: 900px ;
+    width: 1000px;
     height: 600px;
-    position: relative;
-    left: 50%;
-    top: 270px;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+    z-index: 1;
+
 }
+
 
 #ono1 {
     position: absolute;
-    top: 50px;
-    left: 160px;
+    height: 200px;
+    width: 200px;
+    top: 40px;
+    left: 100px;
+
 }
 
 #ono2 {
     position: absolute;
-    height: 160px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     top: 570px;
-    right: 200px;
+    right: 100px;
+
 }
 
 #ono3 {
     position: absolute;
     height: 300px;
     width: 360px;
-    top: 700px;
+    top: 850px;
     left: 100px;
+    z-index: -1;
+
 }
 
 #ono4 {
     position: absolute;
     height: 300px;
     width: 360px;
-    top: 1100px;
-    left: 300px;
+    top: 1200px;
+    left: 400px;
+    z-index: -1;
+
 }
 
 #ono5 {
     position: absolute;
     height: 300px;
     width: 360px;
-    top: 680px;
+    top: 700px;
     left: 650px;
+    z-index: -1;
+
 }
 
 #ono6 {
     position: absolute;
     height: 200px;
     width: 160px;
-    top: 1100px;
-    left: 800px;
+    top: 1300px;
+    right: 400px;
+    z-index: -1;
+
 }
 
 #ono7 {
     position: absolute;
     height: 400px;
     width: 150px;
-    top: 800px;
-    left: 1100px;
+    top: 900px;
+    right: 200px;
+    z-index: -1;
+
 }
 
 .livres{
-    font-family: "Bangers", serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin-top: 40px;
     position: relative;
+    height: 560px;
+    width: 800px;
+    margin: 150px auto;
 }
 
-#livre1 {
-    
-    width: 900px;
+@keyframes select {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+#select{
+    position: absolute;
+    background: url("Ressources/img/livre/star.png");
+    background-size: 140px 150px;
+    width: 140px;
+    height: 150px;
+    animation: select 12s linear 0s infinite; 
+    right: 0px; 
+    top: -50px;      
+}
+
+#textSelect{
+    position: absolute;
+    font-family: "Bangers", serif;
+    font-size: 20px;
+    width: 140px;
+    height: 150px;
+    right: -22px; 
+    top: 15px;      
+    color: #211585;
+}
+
+#europe{
+    background: url("Ressources/img/livre/europeFerme.png");
+    background-size: 700px 100px;
+    width: 700px;
     height: 100px;
-    /* margin: auto;
-    justify-content: center;
-    text-align: center;
-    padding: auto;
+    margin: auto;
     margin-bottom: 20px;
-    margin-top: 100px;  */
+    transition: all 0.3s ease-in-out;
+}
+
+#europe:hover{
+    background: url("Ressources/img/livre/europeOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
 
 }
 
-#livre2 {
-    width: 900px;
-    height: 100px;
-    /* margin: auto;
-    justify-content: center;
-    text-align: center;
-    padding: auto;
+#comics{
+    background: url("Ressources/img/livre/comicsFerme.png");
+    background-size: 600px 120px;
+    width: 600px;
+    height: 120px;
+    margin: auto;
     margin-bottom: 20px;
-    margin-top: 100px;  */
-
-    
+    transition: all 0.3s ease-out;
 }
 
-#livre3 {
-    width: 900px;
-    height: 100px;
-    /* margin: auto;
-    justify-content: center;
-    text-align: center;
-    padding: auto;
+#comics:hover{
+    background: url("Ressources/img/livre/comicsOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+
+#manga{
+    background: url("Ressources/img/livre/mangaFerme.png");
+    background-size: 700px 120px;
+    width: 700px;
+    height: 120px;
+    margin: auto;
     margin-bottom: 20px;
-    margin-top: 100px;  */
+    transition: all 0.3s ease-out;
+}
+
+#manga:hover{
+    background: url("Ressources/img/livre/mangaOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+
+/* VERTICAL CARROUSSEL  */
+.text{
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+    width: 450px;
+    margin-right: 100px;
+    margin-left: 150px;
+    z-index: 3;
 }
 
 
-div{
-    top: auto;
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: end;
+    z-index: 2;
+}
+
+.thumbnails {
+    flex-direction: column;
+    display: none;
+}
+
+.slides {
+    margin-right: 50px;
+    display: grid;
+    gap: 50px;
+    width: auto;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.slides > div {
+    scroll-snap-align: start;
+}
+
+.slides img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+    display: none;
+}
+
+
+.titre {
+    font-family: "Bangers", serif;
+    position: relative;
+    color: white;
+    font-size: 35px;
+    width: 300px;
+    padding: 15px;
+    border: 5px solid white;
+}
+
+.paragraphe {
+    margin-top: 15px;
+    color: white;
+    width: 400px;
+}
+
+#ono8 {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    top: 40px;
+    left: 40px;
+}
+#ono9 {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    bottom: 40px;
+    left: 40px;
+}
+#ono10 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 100px;
+    left: 650px;
+}
+#ono11 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 300px;
+    left: 50px;
+}
+#ono12 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 100px;
+    right: 100px;
+    transform: rotate(-15deg); 
+}
+#ono13 {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    bottom: 5px;
+    left: 550px;
+
 }

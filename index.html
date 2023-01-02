@@ -15,38 +15,33 @@
     <div class="contenu">
         <p class="square2">dessinée</p>
     </div>
-    <video id="video" controls src="Ressources/video/BDvideo.mp4"></video>
-    <img src="/Ressources/img/manga/onomatope1.png" id="ono1">
-    <div id="onoo2"> <img src="/Ressources/img/comics/onomatope1.png" id="ono2"></div>
-    <img src="/Ressources/img/francoBelge/onomatope2.png" id="ono3">
-    <img src="/Ressources/img/comics/onomatope2.png" id="ono4">
-    <img src="/Ressources/img/francoBelge/onomatope3.png" id="ono5">
-    <img src="/Ressources/img/manga/onomatope2.png" id="ono6">
-    <img src="/Ressources/img/manga/onomatope4.png" id="ono7">
-
-
+    <div class="video">
+        <video id="video" controls src="Ressources/video/videoBD.mp4"></video>
+    </div>
+    <div class="onomatope">
+        <img src="/Ressources/img/manga/onomatope1.png" id="ono1">
+        <img src="/Ressources/img/comics/onomatope1.png" id="ono2">
+        <img src="/Ressources/img/francoBelge/onomatope2.png" id="ono3">
+        <img src="/Ressources/img/comics/onomatope2.png" id="ono4">
+   <!-- <img src="/Ressources/img/francoBelge/onomatope3.png" id="ono5"> -->        
+        <img src="/Ressources/img/manga/onomatope2.png" id="ono6">
+        <img src="/Ressources/img/manga/onomatope4.png" id="ono7">
+    </div>
+    
     <div class="livres">
-        <img src="Ressources/img/livres/asie_horiz.png" alt="" id="livre1" onmouseover="changementImage('Ressources/img/livres/asie_plat.png')" class="livre"
-        
-        onmouseout="changementImagesss('Ressources/img/livres/asie_horiz.png')">
-        <img src="Ressources/img/livres/asie_horiz.png" alt=""  id="livre2" onmouseover="changementImage('Ressources/img/livres/asie_plat.png')";
-        
-        onmouseout="changementImagesss('Ressources/img/livres/asie_horiz.png')">
-        <img src="Ressources/img/livres/asie_horiz.png" alt="" id="livre3">
-        
+        <div id="select"></div>
+        <div id="textSelect">SELECTIONNEZ</div>
+        <a href="europe.html">
+            <div id="europe"></div>
+        </a>
+        <a href="comics.html">
+            <div id="comics"></div>
+        </a>
+        <a href="manga.html">
+            <div id="manga"></div>
+        </a>
     </div>
 
-
-
-    <onload="test.js"></onload>
-    <div class="test"><h1>max</h1></div>
-
-    
-
-    
-    
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, totam.</p>
-    <script src="script.js"></script>
 </body>
-
+<script src="script.js"></script>
 </html>
