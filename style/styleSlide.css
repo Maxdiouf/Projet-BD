@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Bangers";
+    src: url("../Ressources/police/Bangers.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../Ressources/police/Inter-VariableFont_slntwght.ttf");
+}
+
 body{
     background: url(../Ressources/img/fonds/fondComics.png);
     background-size: cover;
@@ -39,14 +48,14 @@ align-items: flex-end;
 
 }
 .card1{
-background: url(../Ressources/img/comics/comic_slides/comslide1.jpg);
+background: url(../Ressources/img/comics/comic_slides/comslide2.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
 .card2{
-background:url(../Ressources/img/comics/comic_slides/comslide2.jpg);
+background:url(../Ressources/img/comics/comic_slides/comslide1.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
@@ -54,14 +63,14 @@ align-items: flex-end;
 
 }
 .card3{
-background:url(../Ressources/img/comics/comic_slides/comslide3.jpg);
+background:url(../Ressources/img/comics/comic_slides/comslide4.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
 .card4{
-background:url(../Ressources/img/comics/comic_slides/comslide4.jpg);
+background:url(../Ressources/img/comics/comic_slides/comslide3.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
@@ -112,6 +121,8 @@ background-size: cover;
 } */
 /* titre page */
 .titre{
+    font-family: 'Bangers', 'serif';
+    font-size: 20px;
     width: 400px;
     height: 60px;
     position:relative;
@@ -119,7 +130,7 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1rem solid ;
+    border: 0.5rem solid ;
     border-color: white;
     
     
@@ -132,6 +143,9 @@ background-size: cover;
 }
 /* description texte sur les cards */
 .details{
+    padding: 3px;
+    font-family: 'Inter', 'serif';
+    font-size: small;
     width: 200px;
     height: 150px;
     background-color: white;
@@ -140,6 +154,15 @@ background-size: cover;
     justify-content: flex-start;
     align-items: flex-start;
     
+}
+.details b{
+    font-family: 'Bangers', 'serif';
+    font-size: medium;
+    color: #211585;
+}
+
+.details P{
+    color: #211585;
 }
 .svg-lien{
     top: 100px;
