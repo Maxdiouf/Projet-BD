@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Bangers";
+    src: url("../../Ressources/police/Bangers.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../../Ressources/police/Inter-VariableFont_slntwght.ttf");
+}
+
+
+.container{
+    justify-content: flex;
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0px;
+
+} 
+/* .menu{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    left: 5px;
+    top: 0;
+    z-index: 1;
+} */
+.image{
+    width: 78% ;
+    height: 100%;
+    position: relative;
+    left: -10px;
+    top: 0;
+    overflow-y: scroll;
+}
+.texte{
+    top: 0;
+    position:relative;
+    width: 25%;
+    height: 900px;
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+    
+}
+.dechImg {
+    width: 20%;
+    height: 100%; 
+    right: 230px;
+    position: fixed; 
+    background: url(../../Ressources/img/fonds/dechire.png);
+    background-size: cover;
+    justify-content: flex-start; 
+    z-index: 0;
+    /* width: 90%;
+    height: 100%;
+   
+     position: absolute;
+    background-image: url(dechire.png);
+    background-size: cover;
+    z-index: 1;
+    
+    display: flex;
+    align-items: flex;
+    justify-content: flex;  */
+   
+}
+
+
+.contenu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+.para p{
+    font-family: "Inter";
+    color: #0F1C81;
+}
+.para{
+    margin: 20px;
+    top: 80px;
+    position: absolute;
+
+}
+.para h3{
+    color: #0D1C81;
+    font-size: 25px;
+    font-family: 'Bangers', Times, serif;
+}
+.quitte{
+    z-index: 4;
+    position:absolute;
+    width: 70px;
+}
+
+.menu{
+    left: 0px;
+    position: fixed;
+    z-index: 3;
+    width: 150px
+}
