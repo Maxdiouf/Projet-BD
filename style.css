@@ -16,20 +16,20 @@ body{
 body#europePage {
     background-image: url(/Ressources/img/fonds/fondFrancoBelge.png);
     background-size: cover; 
-    overflow-y: hidden;
+    overflow: hidden;
 
 }
 
 body#comicsPage {
     background-image: url(/Ressources/img/fonds/fondComics.png);
     background-size: cover; 
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 body#mangaPage {
     background-image: url(/Ressources/img/fonds/fondManga.png);
     background-size: cover; 
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 h1 {
@@ -360,9 +360,15 @@ h1 {
   
   .sidenav .close {
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 25px;
-    font-size: 36px;
+  }
+  .sidenav .home {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    right: 80px;
   }
 
   .menu{
