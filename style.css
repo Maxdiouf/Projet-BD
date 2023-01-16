@@ -19,34 +19,48 @@ body#europePage {
     overflow-y: hidden;
 
 }
+
 body#comicsPage {
     background-image: url(/Ressources/img/fonds/fondComics.png);
     background-size: cover; 
     overflow-y: hidden;
 }
+
 body#mangaPage {
     background-image: url(/Ressources/img/fonds/fondManga.png);
     background-size: cover; 
     overflow-y: hidden;
 }
+
 h1 {
     font-family: "Bangers", serif;
     color: white;
   }
 
+  .dechirureAccueil{
+    position: absolute;
+    left: 0;
+    bottom: -650px;
+    height: 700px;
+    width: 100vw;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
 .square {
     font-family: "Bangers", serif;
-    border: 2px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
     font-size: 60px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 2px;
 }
+
 .square2 {
     font-family: "Bangers", serif;
-    border: 2px solid white;
-    color: white;
+    border: 3px solid black;
+    color: black;
     font-size: 60px;
     padding-left: 20px;
     padding-right: 20px;
@@ -66,75 +80,6 @@ h1 {
     margin: auto;
     display: block;
     z-index: 1;
-}
-
-
-#ono1 {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 40px;
-    left: 100px;
-
-}
-
-#ono2 {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    top: 570px;
-    right: 100px;
-
-}
-
-#ono3 {
-    position: absolute;
-    height: 300px;
-    width: 360px;
-    top: 850px;
-    left: 100px;
-    z-index: -1;
-
-}
-
-#ono4 {
-    position: absolute;
-    height: 300px;
-    width: 360px;
-    top: 1200px;
-    left: 400px;
-    z-index: -1;
-
-}
-
-#ono5 {
-    position: absolute;
-    height: 300px;
-    width: 360px;
-    top: 700px;
-    left: 650px;
-    z-index: -1;
-
-}
-
-#ono6 {
-    position: absolute;
-    height: 200px;
-    width: 160px;
-    top: 1300px;
-    right: 400px;
-    z-index: -1;
-
-}
-
-#ono7 {
-    position: absolute;
-    height: 400px;
-    width: 150px;
-    top: 900px;
-    right: 200px;
-    z-index: -1;
-
 }
 
 .livres{
@@ -160,7 +105,6 @@ h1 {
     width: 800px;
     height: 400px;
     margin: auto;
-
 }
 
 #comics{
@@ -200,6 +144,7 @@ h1 {
 }
 
 /* VERTICAL CARROUSSEL  */
+
 .text{
     margin-top: 50vh; 
     transform: translateY(-50%);
@@ -208,7 +153,6 @@ h1 {
     margin-left: 150px;
     z-index: 3;
 }
-
 
 .container{
     display: flex;
@@ -248,7 +192,6 @@ h1 {
 .slides::-webkit-scrollbar {
     display: none;
 }
-
 
 .titre {
     font-family: "Bangers", serif;
