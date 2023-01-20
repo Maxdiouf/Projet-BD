@@ -40,8 +40,10 @@ closeBtn.onclick = closeNav;
 
 function openNav() {
   sidenav.classList.add("active");
+  console.log("ok")
 }
 
 function closeNav() {
   sidenav.classList.remove("active");
+  console.log("ok")
 }
