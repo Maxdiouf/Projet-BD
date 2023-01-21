@@ -8,7 +8,7 @@
 }
 
 body{
-    background: url(../Ressources/img/fonds/fondFrancoBelge.png);
+    background: url(../Ressources/img/fonds/fondComics.png);
     background-size: cover;
     overflow-y: hidden;
 }
@@ -41,21 +41,21 @@ transition-duration: 1000ms;
 /* important ce padding */
 margin: 10px;
 z-index: 1;
-background: url(../Ressources/img/francoBelge/europe/europe4.jpg);
+background: url(../Ressources/img/comics/comic_slides/comslide5.jpg);
 background-size: cover; display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 
 }
 .card1{
-background: url(../Ressources/img/francoBelge/europe/europes2.jpg);
+background: url(../Ressources/img/comics/comic_slides/comslide2.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
 .card2{
-background:url(../Ressources/img/francoBelge/europe/europes3.jpg);
+background:url(../Ressources/img/comics/comic_slides/comslide1.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
@@ -63,7 +63,7 @@ align-items: flex-end;
 
 }
 .card3{
-background:url(../Ressources/img/francoBelge/europe/europe4.jpg);
+background:url(../Ressources/img/comics/comic_slides/comslide4.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
@@ -76,7 +76,7 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
-/* .card5{
+.card5{
 background:url(../Ressources/img/comics/comic_slides/comslide5.jpg);
 background-size: cover;
 display: flex;
@@ -101,7 +101,7 @@ background-size: cover;
 .card9{
 background:url(img9.jpg);
 background-size: cover;
-} */
+}
 
 .container{
     width: 1000px;
@@ -279,3 +279,4 @@ background-size: cover;
     width: 800px;
     margin: 150px auto;
   }
+  

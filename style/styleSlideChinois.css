@@ -41,21 +41,21 @@ transition-duration: 1000ms;
 /* important ce padding */
 margin: 10px;
 z-index: 1;
-background: url(../Ressources/img/comics/comic_slides/comslide5.jpg);
+background: url(../Ressources/img/manga/manga/Lianhuanhua.jpg);
 background-size: cover; display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 
 }
 .card1{
-background: url(../Ressources/img/comics/comic_slides/comslide2.jpg);
+background: url(../Ressources/img/manga/manga/mangaSlide2.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
 .card2{
-background:url(../Ressources/img/comics/comic_slides/comslide1.jpg);
+background:url(../Ressources/img/manga/manga/mangaSlide3.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
@@ -63,14 +63,14 @@ align-items: flex-end;
 
 }
 .card3{
-background:url(../Ressources/img/comics/comic_slides/comslide4.jpg);
+background:url(../Ressources/img/manga/manga/mangaSlide1.png4.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
 .card4{
-background:url(../Ressources/img/comics/comic_slides/comslide3.jpg);
+background:url(../Ressources/img/manga/manga/mangaSlide1.png3.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
@@ -126,7 +126,7 @@ background-size: cover;
     width: 400px;
     height: 60px;
     position:relative;
-    left: 100px;
+    left: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,3 +176,107 @@ background-size: cover;
     top: 420px;
     left: 35px;
 }
+
+/* Menu animation */
+.menu{
+    left: 20px;
+    top: 20px;
+    position: fixed;
+    z-index: 20;
+    width: 100px;
+  }
+  
+#europe{
+    background: url("../../Ressources/img/livre/europeFerme.png");
+    background-size: 700px 100px;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #europe:hover{
+    background: url("../../Ressources/img/livre/europeOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  
+  }
+  
+  #comics{
+    background: url("../../Ressources/img/livre/comicsFerme.png");
+    background-size: 600px 120px;
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+  }
+  
+  #comics:hover{
+    background: url("../../Ressources/img/livre/comicsOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  }
+  
+  #manga{
+    background: url("../../Ressources/img/livre/mangaFerme.png");
+    background-size: 700px 120px;
+    width: 700px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+  }
+  
+  #manga:hover{
+    background: url("../../Ressources/img/livre/mangaOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: -100vw;
+    background-image: url("../../Ressources/img/fonds/burgerMenu.png");
+    background-size: cover;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+   
+  .sidenav.active {
+    left: 0;
+  }
+  .sidenav .home {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    right: 80px;
+  }
+
+  .sidenav .close {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  .livres{
+    position: relative;
+    height: 560px;
+    width: 800px;
+    margin: 150px auto;
+  }
+  
