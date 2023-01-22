@@ -187,7 +187,7 @@ background-size: cover;
   }
   
 #europe{
-    background: url("../../Ressources/img/livre/europeFerme.png");
+    background: url("../Ressources/img/livre/europeFerme.png");
     background-size: 700px 100px;
     width: 700px;
     height: 100px;
@@ -197,7 +197,7 @@ background-size: cover;
   }
   
   #europe:hover{
-    background: url("../../Ressources/img/livre/europeOuvert.png");
+    background: url("../Ressources/img/livre/europeOuvert.png");
     background-size: 800px 400px;
     width: 800px;
     height: 400px;
@@ -206,7 +206,7 @@ background-size: cover;
   }
   
   #comics{
-    background: url("../../Ressources/img/livre/comicsFerme.png");
+    background: url("../Ressources/img/livre/comicsFerme.png");
     background-size: 600px 120px;
     width: 600px;
     height: 120px;
@@ -216,7 +216,7 @@ background-size: cover;
   }
   
   #comics:hover{
-    background: url("../../Ressources/img/livre/comicsOuvert.png");
+    background: url("../Ressources/img/livre/comicsOuvert.png");
     background-size: 800px 400px;
     width: 800px;
     height: 400px;
@@ -224,7 +224,7 @@ background-size: cover;
   }
   
   #manga{
-    background: url("../../Ressources/img/livre/mangaFerme.png");
+    background: url("../Ressources/img/livre/mangaFerme.png");
     background-size: 700px 120px;
     width: 700px;
     height: 120px;
@@ -234,7 +234,7 @@ background-size: cover;
   }
   
   #manga:hover{
-    background: url("../../Ressources/img/livre/mangaOuvert.png");
+    background: url("../Ressources/img/livre/mangaOuvert.png");
     background-size: 800px 400px;
     width: 800px;
     height: 400px;
@@ -248,7 +248,7 @@ background-size: cover;
     z-index: 100;
     top: 0;
     left: -100vw;
-    background-image: url("../../Ressources/img/fonds/burgerMenu.png");
+    background-image: url("../Ressources/img/fonds/burgerMenu.png");
     background-size: cover;
     padding-top: 60px;
     transition: left 0.5s ease;
