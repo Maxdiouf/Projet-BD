@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Bangers";
+    src: url("../../Ressources/police/Bangers.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../../Ressources/police/Inter-VariableFont_slntwght.ttf");
+}
+
+
+.container{
+    justify-content: flex;
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0px;
+
+} 
+
+.image{
+    width: 78% ;
+    height: 100%;
+    position: relative;
+    left: -10px;
+    top: 0;
+    overflow-y: scroll;
+}
+.texte{
+    top: 0;
+    position:relative;
+    width: 25%;
+    height: 900px;
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+    
+}
+
+.dechImg {
+    width: 20%;
+    height: 100%; 
+    right: 230px;
+    position: fixed; 
+    background: url(../../Ressources/img/fonds/dechire.png);
+    background-size: cover;
+    justify-content: flex-start; 
+    z-index: 0;
+}
+
+.contenu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+.para p{
+    font-family: "Inter";
+    color: #0F1C81;
+}
+.para{
+    margin: 20px;
+    top: 80px;
+    position: absolute;
+
+}
+.para h3{
+    color: #0D1C81;
+    font-size: 25px;
+    font-family: 'Bangers', Times, serif;
+}
+.quitte{
+    z-index: 4;
+    position:absolute;
+    width: 70px;
+}
+
+/* Menu animation */
+.menu{
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 20;
+    width: 150px;
+  }
+  
+#europe{
+    background: url("../../Ressources/img/livre/europeFerme.png");
+    background-size: 700px 100px;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #europe:hover{
+    background: url("../../Ressources/img/livre/europeOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  
+  }
+  
+  #comics{
+    background: url("../../Ressources/img/livre/comicsFerme.png");
+    background-size: 600px 120px;
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+  }
+  
+  #comics:hover{
+    background: url("../../Ressources/img/livre/comicsOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  }
+  
+  #manga{
+    background: url("../../Ressources/img/livre/mangaFerme.png");
+    background-size: 700px 120px;
+    width: 700px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+  }
+  
+  #manga:hover{
+    background: url("../../Ressources/img/livre/mangaOuvert.png");
+    background-size: 800px 400px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: -100vw;
+    background-image: url("../../Ressources/img/fonds/burgerMenu.png");
+    background-size: cover;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+   
+  .sidenav.active {
+    left: 0;
+  }
+  .sidenav .home {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    right: 80px;
+  }
+
+  .sidenav .close {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  .livres{
+    position: relative;
+    height: 560px;
+    width: 800px;
+    margin: 150px auto;
+  }
+  

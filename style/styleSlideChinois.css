@@ -41,7 +41,7 @@ transition-duration: 1000ms;
 /* important ce padding */
 margin: 10px;
 z-index: 1;
-background: url(../Ressources/img/manga/manga/Lianhuanhua.jpg);
+background: url(../Ressources/img/manga/manga/mangaSlide1.jpg);
 background-size: cover; display: flex;
 justify-content: flex-end;
 align-items: flex-end;
@@ -63,7 +63,7 @@ align-items: flex-end;
 
 }
 .card3{
-background:url(../Ressources/img/manga/manga/mangaSlide1.png4.jpg);
+background:url(../Ressources/img/manga/manga/mangaSlide1.jpg);
 background-size: cover;
 display: flex;
 justify-content: flex-end;
