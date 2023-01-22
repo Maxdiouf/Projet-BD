@@ -9,25 +9,25 @@
 }
 
 body{
-    background-image: url(/Ressources/img/fonds/accueil.png);
+    background-image: url(Ressources/img/fonds/accueil.png);
     background-size: cover; 
 }
 
 body#europePage {
-    background-image: url(/Ressources/img/fonds/fondFrancoBelge.png);
+    background-image: url(Ressources/img/fonds/fondFrancoBelge.png);
     background-size: cover; 
     overflow: hidden;
 
 }
 
 body#comicsPage {
-    background-image: url(/Ressources/img/fonds/fondComics.png);
+    background-image: url(Ressources/img/fonds/fondComics.png);
     background-size: cover; 
     overflow: hidden;
 }
 
 body#mangaPage {
-    background-image: url(/Ressources/img/fonds/fondManga.png);
+    background-image: url(Ressources/img/fonds/fondManga.png);
     background-size: cover; 
     overflow: hidden;
 }
