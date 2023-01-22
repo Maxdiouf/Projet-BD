@@ -349,7 +349,7 @@ h1 {
     z-index: 100;
     top: 0;
     left: -100vw;
-    background-image: url("/Ressources/img/fonds/burgerMenu.png");
+    background-image: url("Ressources/img/fonds/burgerMenu.png");
     background-size: cover;
     transition: left 0.5s ease;
   }
