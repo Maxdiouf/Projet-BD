@@ -5,5 +5,5 @@ Pour ce faire, nous sommes partis d’une idée principale d’exposition à dé
 
 Rôles de chaque membre et repartition des taches : <br> <br>
 <a href="https://www.linkedin.com/in/diouf-maguette-2735ba204/">Maguette Diouf</a> et <a href= "https://www.linkedin.com/in/gajanbaskaran"> Gajan Baskaran</a> Développeur du site web <br> <br>
-<a href="https://fr.linkedin.com/in/len-alida-369819222?original_referer=https%3A%2F%2Fwww.google.fr%2F"> Alida Len</a> et <a href=" https://fr.linkedin.com/in/marie-parisse-b61539216"> Marie Parisse</a> Designer (Réalisation de la maquette)
+<a href="https://fr.linkedin.com/in/len-alida-369819222?original_referer=https%3A%2F%2Fwww.google.fr%2F"> Alida Len</a> et <a href="https://fr.linkedin.com/in/marie-parisse-b61539216"> Marie Parisse</a> Designer (Réalisation de la maquette) <br> <br>
 <a href="https://www.linkedin.com/in/emma-g-299a36207"> Emma Gottignies</a> Et Marine Goumy : Éditorialiste (chargé de l'édition du contenu (texte) de tout le site web)
