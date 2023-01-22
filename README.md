@@ -8,6 +8,6 @@ Rôles de chaque membre et repartition des taches : <br> <br>
 <a href="https://fr.linkedin.com/in/len-alida-369819222?original_referer=https%3A%2F%2Fwww.google.fr%2F"> Alida Len</a> et <a href="https://fr.linkedin.com/in/marie-parisse-b61539216"> Marie Parisse</a> Designer (Réalisation de la maquette) <br> <br>
 <a href="https://www.linkedin.com/in/emma-g-299a36207"> Emma Gottignies</a> Et Marine Goumy : Éditorialiste (chargé de l'édition du contenu (texte) de tout le site web)
 
-<a href="https://www.figma.com/file/9e3tWToSVl9TX8pH4vxyTO/Moodboard?node-id=505%3A515&t=TMMgLWSmd8tXSzHB-1"> Lien figma pour la marquette </a>
+Cliquer sur ce <a href="https://www.figma.com/file/9e3tWToSVl9TX8pH4vxyTO/Moodboard?node-id=505%3A515&t=TMMgLWSmd8tXSzHB-1">  Lien figma </a> pour voir la maquette du site.
 
 Crédit vidéo de présentation :  <a href="https://fr.linkedin.com/in/marie-parisse-b61539216"> Marie Parisse</a> 
